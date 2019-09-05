@@ -1,4 +1,4 @@
-#1.1.1 Example 1
+#1.1.1 Example 1 :Trajectory of defined map
 
 n0 = int(input('Enter the starting number: '))
 t = int(input('Enter the number of iterations: '))
