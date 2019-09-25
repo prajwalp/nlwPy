@@ -3,14 +3,16 @@
 n0 = int(input('Enter the starting number: '))
 t = int(input('Enter the number of iterations: '))
 
-#n0 = 998123456789
-#t = 350
-
+#Defining list for storing time evolution
 l=[]
 l.append(n0)
+
+#Check for periodicity
 e=0
+
+#Time evolution loop
 for i in range(t):
-	if(int(str(int(n0))[-1])%2 == 0):
+	if(int(str(int(n0))[-1])%2 == 0): #Using string formatting to check if number is even
 		n0 = n0/2
 	else:
 		n0 = 3*n0 + 1

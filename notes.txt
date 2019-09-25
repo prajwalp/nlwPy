@@ -1,0 +1,5 @@
+Notes to discuss:
+
+Page 17:
+- One hump fully chaotic map?
+- Those belonging to unstable cycle must be excluded?
