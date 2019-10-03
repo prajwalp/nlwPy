@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  3 OCT 2019 09:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.9)  3 OCT 2019 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -228,14 +228,14 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 469.47049pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=469.47049pt
-* \textheight=731.23584pt
+* \textheight=674.33032pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-52.36449pt
+* \topmargin=-23.91173pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -306,7 +306,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--222
 Here is how much of TeX's memory you used:
  2585 strings out of 492982
  36157 string characters out of 6134897
- 110804 words of memory out of 5000000
+ 108806 words of memory out of 5000000
  6112 multiletter control sequences out of 15000+600000
  11205 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -328,7 +328,7 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on /home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/rep
-ort_v0.1.pdf (6 pages, 189811 bytes).
+ort_v0.1.pdf (6 pages, 189784 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
