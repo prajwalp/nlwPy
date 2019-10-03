@@ -177,7 +177,7 @@ right=20mm}
 
             DFT of a logistic map shows interesting properties. We assume that we have N samples from the logistic map. Depending on the value of $r$ we see different results. $r=4$ shows chaos in the DFT. $r=3.2$ shows two period and $r=3.5$ shows four period which is consistent with the bifurcation diagram of logistic map. 
 
-            \subsection{Fast Fourier Transform}
+         \subsection{Fast Fourier Transform}
             The DFT explained in the previous subsection is of the order of $\mathcal{O}(n^2)$ which can become very slow of large values for n (as is obtained in time series data). To make this more efficient, some properties in the DFT must be noted.
 
             Ignoring normalization constant, the DFT is given by 
@@ -216,7 +216,7 @@ right=20mm}
             \end{align*}
             which is a two $\frac{N}{2}$ order DFT. This process can be iterated until two point DFT is reached (hence the assumption of N as a power of 2).
 
-            \subsection{Lyapunov Exponent}
+         \subsection{Lyapunov Exponent}
             Lyaponov exponent characterizes how infinitesimally close trajectories change with time. \\ \\
             Let $x^*(t)$ and $x(t)$ be two trajectories of the map $x_{t+1} = f(x_t)$ with $x^*(0)$ and $x(0)$ being infinitesimally close. Then,
             \begin{align*}
@@ -238,13 +238,16 @@ right=20mm}
             Note that $\lambda$ depends on the inital point $x_0$. Hence, if $x_0$ is a fixed point or a periodic point or eventually periodic, the Lyapunov exponent will be the sum of constant terms. If the slope at that point is less than 1, then $\lambda$ is negative (0 if slope is less than $e$ and diverges otherwise). Hence, calculating Lyaponov exponents for those points is pointless. \\[5mm]
             \textbf{Lyapunov exponent for Logistic map with r=4}
 
-            \subsection{Autocorrelation Function}
+         \subsection{Autocorrelation Function}
             Let $x_{t+1} = f(x_t)$. Then, the time average of x is, $\langle x \rangle = \lim_{T\to\infty}\frac{1}{T}\sum_{t=0}^{T-1}x_t$. Autocorrelation function can then be defined as:
             $$
                C_{xx}(\tau) = \lim_{T\to\infty}\frac{1}{T} \sum_{t=0}^{T-1}(x_t - \langle x\rangle)(x_{t+\tau} - \langle x\rangle)
             $$
             Autocorrelation function is a measure of the correlation in time series data. Hence, it can be used as a check for randomness in the system (i.e, $C_{xx}(\tau) \to 0$ as $\tau \to \infty$). In the event of correlation existing i.e, non randomness, it can give clues about the underlying model of the time series data.\\[5mm]
             \textbf{Autocorrelation Function for Logistic Map}
+      \newpage
+      \section*{Appendix A : Codes}
+
 
 
 \end{document}

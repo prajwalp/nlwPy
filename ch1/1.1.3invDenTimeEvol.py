@@ -4,24 +4,36 @@ import matplotlib.pyplot as plt
 
 #initialising x-array for values
 h=0.001
-x=np.arange(0,1,h)
+x=np.arange(0,1+h,h)
 p0=np.ones(len(x))
 pi=np.zeros(len(x))
-T=100
+T=10
 
 def f(y):
 	return 4*y*(1-y)
 
 def fInv(z):
-	return (1+np.sqrt(1-z))/2.
+	xVal=[]
+	for xy in x:
+		if(abs(f(xy) - z)<1e-3):
+			xVal.append(xy)
+	return xVal
+
+plt.plot(x,p0)
 
 for t in range(T):
 	for j in range(len(x)):
 		yVal=x[j]
 		xVal=fInv(yVal)
-		indX=int(xVal/h)-1
-		pi[j]=p0[indX]
+		pSum=0
+		for xy in xVal:
+			indX=int(xy/h)-1
+			pSum+=p0[indX]
+		pi[j]=float(pSum)
 	p0=np.array(pi)
-
-plt.plot(x,p0)
+	plt.clf()
+	plt.plot(x,p0)
+	plt.pause(0.0001)
+	print(t)
 plt.show()
+

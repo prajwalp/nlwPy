@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1570075785 "report_v0.1.tex" "/home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/report_v0.1.pdf" "report_v0.1" 1570075785
+["pdflatex"] 1570075941 "report_v0.1.tex" "/home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/report_v0.1.pdf" "report_v0.1" 1570075941
   "/etc/texmf/web2c/texmf.cnf" 1568018691 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/report_v0.1.aux" 1570075785 649 f3a6d7f69dbe03207f0833d33beb5f22 ""
+  "/home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/report_v0.1.aux" 1570075941 649 f3a6d7f69dbe03207f0833d33beb5f22 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -78,11 +78,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1568019918 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1568019957 4126515 03b5e35262d66425997418b7802821d1 ""
-  "report_v0.1.aux" 1570075785 649 f3a6d7f69dbe03207f0833d33beb5f22 ""
-  "report_v0.1.tex" 1570075784 14247 cc7cf64561dea5ddc1b4050193513068 ""
+  "report_v0.1.aux" 1570075941 649 f3a6d7f69dbe03207f0833d33beb5f22 ""
+  "report_v0.1.tex" 1570075941 14290 f73d7c969edc2a1242c6c6cd33f8f4df ""
   (generated)
-  "/home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/report_v0.1.log"
+  "report_v0.1.pdf"
   "report_v0.1.log"
   "report_v0.1.aux"
+  "/home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/report_v0.1.log"
   "/home/prajwalpadmanabhan/Dropbox/GitHubRepos/nlwPy/report/report_v0.1.pdf"
-  "report_v0.1.pdf"
