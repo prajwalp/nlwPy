@@ -30,3 +30,4 @@ x_true = 0.5 - 0.5 * math.cos(2**t * math.acos(1-2*y0))
 err = x_true - y
 
 print('Error between exact and numerical value: ',err)
+

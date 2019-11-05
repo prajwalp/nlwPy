@@ -1,15 +1,20 @@
+#Lyapunov exponent for logistic map
+
 import numpy as np
 import matplotlib.pyplot as plt
 
 h=0.01
 T=int(1e3)
 
+#logistic map
 def f(x):
 	return 4*x*(1-x)
 
+#central difference method to calculate derivative of logistic map
 def df_dx(x):
 	return (f(x+h)-f(x-h))/(2*h)
 
+#lyapunov exponent calculation
 def lyapFunc(x0):
 	exp=0.0
 	xi=x0

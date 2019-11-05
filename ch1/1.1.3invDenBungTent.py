@@ -1,3 +1,5 @@
+#Invariant Density for Bungalow Tent Map
+
 import matplotlib.pyplot as plt
 
 #Bungalow Tent Map

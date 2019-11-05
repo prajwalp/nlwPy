@@ -1,12 +1,15 @@
+#double hump map and the bifurcation diagram
 import numpy as np
 import matplotlib.pyplot as plt
 
+#defining double hump map
 def f(r,x):
 	if(x<0.5):
 		return r*(0.5-x)*x
 	else:
 		return r*(1-x)*(-0.5+x)
-'''
+
+#plotting the map
 xVec=np.arange(0,1,0.01)
 y=[]
 for i in xVec:
@@ -18,7 +21,7 @@ plt.ylabel('f(x)')
 plt.title('Double Hump Map')
 plt.show()
 
-'''
+#bifurcation diagram for what values of function are reached
 rVec=np.arange(0,20,0.1)
 T=int(1e4)
 x0=0.25

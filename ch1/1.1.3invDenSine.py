@@ -1,3 +1,5 @@
+#Invariant density for sine map
+
 import matplotlib.pyplot as plt
 import math
 

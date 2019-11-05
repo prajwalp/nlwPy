@@ -1,3 +1,5 @@
+#Invariant Density for Double Hump Map
+
 import matplotlib.pyplot as plt
 import math
 
@@ -32,5 +34,5 @@ for xAx in range(2):
 		axCur.set_title('x0: %.2f'%x0)
 		axCur.set_xlabel('x')
 		axCur.set_ylabel('Density of x')
-fig.suptitle('Sine Map invariant Density')
+fig.suptitle('Double Hump Map invariant Density | r=16')
 plt.show()

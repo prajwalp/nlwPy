@@ -1,3 +1,5 @@
+#Invariant Density for Logistic Map
+
 import matplotlib.pyplot as plt
 
 #Logistic Map with r=4

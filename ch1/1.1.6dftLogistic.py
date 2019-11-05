@@ -5,8 +5,9 @@ import math
 #number of points to be sampled
 N=2**8
 #defining the function to be transformed
+r=4
 def f(t):
-	return 4*t*(1-t)
+	return r*t*(1-t)
 
 #real and imaginary parts of the transform
 realPart=[]
@@ -30,6 +31,7 @@ for i in range(N):
 T=list(range(N))
 plt.plot(T,realPart,'bo',markersize=4,alpha=0.5,label='Real Part')
 plt.plot(T,imPart,'rx',markersize=4,alpha=0.5,label='imaginary Part')
+plt.title('DFT of Logistic Map with r=%.2f'%r)
 plt.legend()
 plt.xlabel('w')
 plt.ylabel('Fourier Transform Values')

@@ -1,3 +1,5 @@
+#Invariant density for a non chaotic map : logistic map with r=3.2
+
 import matplotlib.pyplot as plt
 
 #Logistic Map with r=4
